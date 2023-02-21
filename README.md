@@ -1,4 +1,4 @@
-# merakiTeleworkerReport
+# merakiTeleworkerSdwanReport
 
 This repository contains a number of tools for gathering information about large AutoVPN deployments, especially teleworker use cases, but also applicable to SD-WAN use cases.
 
