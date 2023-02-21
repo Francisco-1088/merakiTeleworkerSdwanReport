@@ -6,8 +6,6 @@ This repository contains a number of tools for gathering information about large
 * spokeTemplateConfigs: Returns existing configurations (l3/l7 firewalls, traffic shaping, shaping rules and hub priorities) for all teleworker and SD-WAN templates in the organization as well as the number of spokes attached to each one.
 * asyncHubMapper: Query VPN statuses across the entire organization, and determine the number of spokes attached to each hub by priority, their online/offline/dormant statuses, as well as their reachability/unreachability to each hub.
 
-![image alt text](images/diagram.png)
-
 # Table of Contents
 
 [Introduction](#intro)
