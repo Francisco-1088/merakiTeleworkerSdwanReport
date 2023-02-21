@@ -2,9 +2,9 @@
 
 This repository contains a number of tools for gathering information about large AutoVPN deployments, especially teleworker use cases, but also applicable to SD-WAN use cases.
 
-* deviceClientReport: Returns information about all clients attached to teleworker and SD-WAN devices across an entire organization, including the teleworker device or SD-WAN device they connect to, and the template their teleworker/SD-WAN device is attached to. Also returns information about individual teleworker/SD-WAN gateways, their reachability and active uplinks.
-* spokeTemplateConfigs: Returns existing configurations (l3/l7 firewalls, traffic shaping, shaping rules and hub priorities) for all teleworker and SD-WAN templates in the organization as well as the number of spokes attached to each one.
-* asyncHubMapper: Query VPN statuses across the entire organization, and determine the number of spokes attached to each hub by priority, their online/offline/dormant statuses, as well as their reachability/unreachability to each hub.
+* **deviceClientReport:** Returns information about all clients attached to teleworker and SD-WAN devices across an entire organization, including the teleworker device or SD-WAN device they connect to, and the template their teleworker/SD-WAN device is attached to. Also returns information about individual teleworker/SD-WAN gateways, their reachability and active uplinks.
+* **spokeTemplateConfigs:** Returns existing configurations (l3/l7 firewalls, traffic shaping, shaping rules and hub priorities) for all teleworker and SD-WAN templates in the organization as well as the number of spokes attached to each one.
+* **asyncHubMapper:** Query VPN statuses across the entire organization, and determine the number of spokes attached to each hub by priority, their online/offline/dormant statuses, as well as their reachability/unreachability to each hub.
 
 # Table of Contents
 
