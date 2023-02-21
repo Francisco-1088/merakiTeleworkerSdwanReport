@@ -60,3 +60,9 @@ In Progress...
 * `secondary_hub_stats.csv`: Contains the online, offline, dormant, reachable and unreachable spokes totals per Hub, for all spokes using that Hub as secondary.
 * `global_hub_stats.csv`: Contains the online, offline, dormant, reachable and unreachable spokes totals per Hub, detailing the number of spokes using it as primary and secondary for each stat.
 * Note that this script assumes that no spokes exist in the organization with more than 2 associated hubs.
+
+<a id="caveats"></a>
+
+## Caveats
+
+In Progress...
