@@ -95,7 +95,7 @@ async def gather_teleworker_devices(aiomeraki):
 
     device_network_template_pd = device_network_pd.merge(org_templates_pd, on='configTemplateId', how='left')
     #print(tabulate(device_network_template_pd, headers='keys', tablefmt='fancy_grid'))
-    device_network_template_pd.to_csv('./teleworker_device_report.csv')
+    device_network_template_pd.to_csv('./teleworker_sdwan_device_report.csv')
 
     device_network_template_dict = device_network_template_pd.to_dict('records')
 
