@@ -213,6 +213,9 @@ if __name__ == "__main__":
     primary_hub_stats_df = pd.DataFrame(primary_hub_stats)
     secondary_hub_stats_df = pd.DataFrame(secondary_hub_stats)
     global_hub_stats_df = pd.DataFrame(global_hub_stats)
+    primary_hub_stats_df.to_csv("./primary_hub_stats.csv")
+    secondary_hub_stats_df.to_csv("./secondary_hub_stats.csv")
+    global_hub_stats_df.to_csv("./global_hub_stats.csv")
 
     print("Primary Hubs:")
     print(tabulate(primary_hub_stats_df, headers="keys", tablefmt="fancy_grid"))
